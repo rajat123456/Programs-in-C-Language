@@ -6,7 +6,7 @@ int main()
 {
     int num;
     int flag=0;
-    printf("Enter any number");
+    printf("Enter any positive number greater than 1");
     scanf("%d",&num);
 
     //iterating to the middle of that number, if we won't find any factor till middle, then no chance to find any factor after middle
