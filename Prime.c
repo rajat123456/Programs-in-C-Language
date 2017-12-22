@@ -12,7 +12,7 @@ int main()
     if(num==0||num==1)
     {
       printf("%d is not prime",num);
-      return;
+      return 0; //simply return if num=0 or 1
       
     }
    
