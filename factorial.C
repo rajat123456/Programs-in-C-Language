@@ -17,7 +17,7 @@ int main()
         printf("Factorial of %d is %llu",num,factorial);
         return 0;
     }
-    //iterating to the middle of that number, if we won't find any factor till middle, then no chance to find any factor after middle
+    //multiplying the given number, whose factorial is needed to find from 2 to the num(i.e, from 2 to the number itself)
     for(int i=2;i<=num;i++)
 
     {
