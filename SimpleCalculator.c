@@ -1,3 +1,5 @@
+//C program to demonstrate SimpleCalculator
+
 #include <stdio.h>
 #include <stdlib.h>
 
