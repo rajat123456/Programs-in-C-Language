@@ -9,6 +9,13 @@ int main()
     printf("Enter any positive number greater than 1");
     scanf("%d",&num);
 
+    if(num==0||num==1)
+    {
+      printf("%d is not prime",num);
+      return;
+      
+    }
+   
     //iterating to the middle of that number, if we won't find any factor till middle, then no chance to find any factor after middle
     for(int i=2;i<=num/2;i++) //here starting from 2, since 1 is not pirme and prime numbers start from 2
 
