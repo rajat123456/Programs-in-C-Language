@@ -10,7 +10,7 @@ int main()
     scanf("%d",&num);
 
     //iterating to the middle of that number, if we won't find any factor till middle, then no chance to find any factor after middle
-    for(int i=0;i<=num/2;i++)
+    for(int i=2;i<=num/2;i++) //here starting from 2, since 1 is not pirme and prime nos strat from 2
 
     {
          if(num%i==0)
