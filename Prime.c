@@ -14,8 +14,10 @@ int main()
 
     {
          if(num%i==0)
+         {
          flag=1; //if we found any 1 factor then we do flag=1 and break out of loop
          break;
+         }
     }
 
     if(flag==0)
